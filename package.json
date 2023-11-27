@@ -1,0 +1,31 @@
+{
+  "name": "gh-actions-test",
+  "version": "0.0.1",
+  "description": "Repository for testing github actions",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orozco92/gh-actions-test.git"
+  },
+  "author": {
+    "name": "Luis David",
+    "email": "goldstein.david92@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orozco92/gh-actions-test/issues"
+  },
+  "homepage": "https://github.com/orozco92/gh-actions-test#readme",
+  "dependencies": {
+    "luxon": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.3.5",
+    "typescript": "^5.3.2"
+  }
+}
